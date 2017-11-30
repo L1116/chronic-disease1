@@ -58,9 +58,6 @@
                     <!-- /.panel-heading -->
                     <div class="panel-body">
 
-
-
-
                     </div>
                 </div>
                 <!-- /.col-lg-4 -->
