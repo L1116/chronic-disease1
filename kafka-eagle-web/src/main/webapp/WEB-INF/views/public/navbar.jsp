@@ -127,7 +127,7 @@
 				<ul id="demo5" class="collapse">
 					<li id="navbar_add"><a href="/ke/patient_analysis/status"><i
 							class="fa fa-fw fa-stethoscope"></i> 用户状态预判</a></li>
-					<li id="navbar_modify"><a href="/ke//patient_analysis/realtime"><i
+					<li id="navbar_modify"><a href="/ke/patient_analysis/realtime"><i
 							class="fa fa-fw fa-heartbeat"></i> 用户实时数据</a></li>
 					<li id="navbar"><a href="/ke/patient_analysis/history"><i
 							class="fa fa-fw fa-heartbeat"></i>用户历史数据</a></li>

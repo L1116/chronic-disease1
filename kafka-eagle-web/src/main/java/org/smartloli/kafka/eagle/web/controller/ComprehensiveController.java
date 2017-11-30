@@ -6,7 +6,11 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 
 import javax.servlet.http.HttpSession;
-
+/**
+ * @author LH
+ *
+ *
+ * */
 @Controller
 public class ComprehensiveController {
     /** comprehensive mood Viewer */
