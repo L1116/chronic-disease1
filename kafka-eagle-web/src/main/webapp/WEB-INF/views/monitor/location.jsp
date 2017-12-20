@@ -47,7 +47,8 @@
                     <!-- /.panel-heading -->
                     <div class="panel-body">
 
-
+                        <img style="margin:20px" width="280" height="140"
+                             src="http://api.map.baidu.com/staticimage/v2?ak=etLBbgQqfQQE3Cb25G29FjDKZtQnzVCp&width=680&height=640&zoom=11"/>
 
 
                     </div>

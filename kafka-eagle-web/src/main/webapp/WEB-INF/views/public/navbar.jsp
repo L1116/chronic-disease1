@@ -122,42 +122,42 @@
 			</li>
 
 			<li><a href="#" data-toggle="collapse" data-target="#demo5"><i
-					class="fa fa-fw fa-bell"></i> 用户分析 <i
+					class="fa fa-fw fa-user"></i> 用户分析 <i
 					class="fa fa-fw fa-caret-down"></i></a>
 				<ul id="demo5" class="collapse">
 					<li id="navbar_add"><a href="/ke/patient_analysis/status"><i
 							class="fa fa-fw fa-stethoscope"></i> 用户状态预判</a></li>
 					<li id="navbar_modify"><a href="/ke/patient_analysis/realtime"><i
-							class="fa fa-fw fa-heartbeat"></i> 用户实时数据</a></li>
+							class="fa fa-fw fa-bar-chart"></i> 用户实时数据</a></li>
 					<li id="navbar"><a href="/ke/patient_analysis/history"><i
-							class="fa fa-fw fa-heartbeat"></i>用户历史数据</a></li>
+							class="fa fa-fw fa-bar-chart"></i>用户历史数据</a></li>
 				</ul>
 			</li>
 
 			<li><a href="#" data-toggle="collapse" data-target="#demo6"><i
-					class="fa fa-fw fa-bell"></i> monitor <i
+					class="fa fa-fw fa-eye"></i> monitor <i
 					class="fa fa-fw fa-caret-down"></i></a>
 				<ul id="demo6" class="collapse">
 					<li id="navbar_add"><a href="/ke/monitor/whole-country"><i
-							class="fa fa-stethoscope fa-fw"></i> 全国</a></li>
+							class="fa fa-map-o fa-fw"></i> 全国</a></li>
 					<li id="navbar_modify"><a href="/ke/monitor/area"><i
-							class="fa fa-heartbeat fa-fw"></i> 某地区</a></li>
+							class="fa fa-paper-plane fa-fw"></i> 某地区</a></li>
 					<li id="navbar"><a href="/ke/monitor/city"><i
-							class="fa fa-heartbeat fa-fw"></i>某市区</a></li>
+							class="fa fa-paper-plane-o fa-fw"></i>某市区</a></li>
 					<li id="navbar"><a href="/ke/monitor/location"><i
-							class="fa fa-heartbeat fa-fw"></i>实时定位</a></li>
+							class="fa fa-map-marker fa-fw"></i>实时定位</a></li>
 				</ul>
 			</li>
 			<li><a href="#" data-toggle="collapse" data-target="#demo7"><i
-					class="fa fa-fw fa-bell"></i> 综合分析 <i
+					class="fa fa-fw fa-search"></i> 综合分析 <i
 					class="fa fa-fw fa-caret-down"></i></a>
 				<ul id="demo7" class="collapse">
 					<li id="navbar_add"><a href="/ke/comprehensive/mood"><i
-							class="fa fa-stethoscope fa-fw"></i>情绪分析</a></li>
+							class="fa  fa-smile-o fa-fw"></i>情绪分析</a></li>
 					<li id="navbar_modify"><a href="/ke/comprehensive/exercise"><i
-							class="fa fa-heartbeat fa-fw"></i> 运动习惯分析</a></li>
+							class="fa fa-futbol-o fa-fw"></i> 运动习惯分析</a></li>
 					<li id="navbar_modify"><a href="/ke/comprehensive/filtrate"><i
-							class="fa fa-heartbeat fa-fw"></i> 筛选分析</a></li>
+							class="fa fa-street-view fa-fw"></i> 筛选分析</a></li>
 				</ul>
 			</li>
 
@@ -177,6 +177,8 @@
 							class="fa fa-bullhorn fa-fw"></i> Notice</a></li> -->
 						<li><a href="/ke/system/datatest"><i
 								class="fa fa-bar-chart fa-fw"></i> DataTest</a></li>
+						<li><a href="/ke/system/DTdemo"><i
+								class="fa fa-bar-chart fa-fw"></i> DTdemo</a></li>
 					</ul>
 				</li>
 			</c:if>
