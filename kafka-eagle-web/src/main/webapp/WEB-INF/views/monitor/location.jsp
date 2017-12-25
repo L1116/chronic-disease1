@@ -45,11 +45,15 @@
                         <i class="fa fa-cogs fa-fw"></i> 实时状态信息
                     </div>
                     <!-- /.panel-heading -->
-                    <div class="panel-body">
-
-                        <img style="margin:20px" width="280" height="140"
-                             src="http://api.map.baidu.com/staticimage/v2?ak=etLBbgQqfQQE3Cb25G29FjDKZtQnzVCp&width=680&height=640&zoom=11"/>
-
+                    <div class="panel-body" >
+                            <div id="main" style="height:600px"></div>
+                        <%--<img style="margin:20px" width="280" height="140"
+                             src="http://api.map.baidu.com/staticimage/v2?ak=etLBbgQqfQQE3Cb25G29FjDKZtQnzVCp&width=680&height=640&zoom=11"/>--%>
+                            <script src="/ke/media/js/track/echarts/echarts.js"></script>
+                            <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=ogQzr2weGLe00PmSAZWf1eZ912ldWp1s"></script>
+                            <script src="/ke/media/js/track/t_js/jquery.min.js"></script>
+                            <script src="/ke/media/js/track/t_js/require.js"></script>
+                            <script src="/ke/media/js/track/t_js/example3.js"></script>
 
                     </div>
                 </div>
