@@ -128,7 +128,7 @@
                 <div class="modal-content">
                     <div class="modal-header">
                         <button class="close" type="button" data-dismiss="modal">×</button>
-                        <h4 class="modal-title" id="keModalLabel">
+                        <h4 class="modal-title" id="datatestLabel">
                             Add DATA
                         </h4>
                     </div>

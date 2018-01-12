@@ -43,6 +43,8 @@
                 <div class="panel panel-default">
                     <div class="panel-heading">
                         <i class="fa fa-cogs fa-fw"></i> 总体指标
+                        <div id="main" style="height:600px;border:1px solid #ccc;padding:10px">
+                        </div>
                     </div>
                     <!-- /.panel-heading -->
                     <div class="panel-body">
@@ -72,8 +74,15 @@
     </div>
 </div>
 </body>
+<script type="text/javascript" src="/ke/media/js/monitor/jquery.js"></script>
+<script type="text/javascript" src="/ke/media/js/monitor/echarts.js"></script>
+<script type="text/javascript" src="/ke/media/js/monitor/bmap.js"></script>
+<script type="text/javascript" src="/ke/media/js/monitor/china.js"></script>
+<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=ogQzr2weGLe00PmSAZWf1eZ912ldWp1s"></script>
+<script type="text/javascript" src="/ke/media/js/monitor/whole_location.js"></script>
 <jsp:include page="../public/script.jsp">
     <jsp:param value="main/patient/status_prognosis.js" name="loader" />
 </jsp:include>
 <jsp:include page="../public/tscript.jsp"></jsp:include>
+
 </html>
