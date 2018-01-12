@@ -55,6 +55,11 @@ public class DataTestServiceImpl implements DataTestService {
         return  dataTestDao.modify(dt);
     }
 
+    @Override
+    public int DTCounts() {
+        return dataTestDao.countTotaldts();
+    }
+
 
 }
 

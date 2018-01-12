@@ -68,7 +68,8 @@
 						class="fa fa-fw fa-gear"></i> Reset</a></li>
 				<li><a href="/ke/account/signout"><i
 						class="fa fa-fw fa-power-off"></i> Signout</a></li>
-			</ul></li>
+			</ul>
+		</li>
 	</ul>
 	<!-- Sidebar Menu Items - These collapse to the responsive navigation menu on small screens -->
 	<div class="collapse navbar-collapse navbar-ex1-collapse">
@@ -81,11 +82,11 @@
 				<ul id="demo" class="collapse">
 					<li id="navbar_create"><a href="/ke/topic/create"><i
 							class="fa fa-edit fa-fw"></i> Create</a></li>
-					<li id="navbar_list"><a href="/ke/topic/list"><i
+					<li id="navbar_list1"><a href="/ke/topic/list"><i
 							class="fa fa-table fa-fw"></i> List</a></li>
-					<li id="navbar_list"><a href="/ke/topic/message"><i
+					<li id="navbar_list2"><a href="/ke/topic/message"><i
 							class="fa fa-file-text fa-fw"></i> Message</a></li>
-					<li id="navbar_list"><a href="/ke/topic/mock"><i
+					<li id="navbar_list3"><a href="/ke/topic/mock"><i
 							class="fa fa-maxcdn fa-fw"></i> Mock</a></li>
 				</ul></li>
 			<li id="navbar_consumers"><a href="/ke/consumers"><i
@@ -94,9 +95,9 @@
 					class="fa fa-fw fa-cloud"></i> Cluster <i
 					class="fa fa-fw fa-caret-down"></i></a>
 				<ul id="demo2" class="collapse">
-					<li id="navbar_cli"><a href="/ke/cluster/info"><i
+					<li id="navbar_cli1"><a href="/ke/cluster/info"><i
 							class="fa fa-sitemap fa-fw"></i> ZK & Kafka</a></li>
-					<li id="navbar_cli"><a href="/ke/cluster/multi"><i
+					<li id="navbar_cli2"><a href="/ke/cluster/multi"><i
 							class="fa fa-maxcdn fa-fw"></i> Multi-Clusters</a></li>
 					<li id="navbar_zk"><a href="/ke/cluster/zkcli"><i
 							class="fa fa-terminal fa-fw"></i> ZkCli</a></li>
@@ -105,9 +106,9 @@
 					class="fa fa-fw fa-eye"></i> Metrics <i
 					class="fa fa-fw fa-caret-down"></i></a>
 				<ul id="demo4" class="collapse">
-					<li id="navbar_cli"><a href="/ke/metrics/brokers"><i
+					<li id="navbar_cli3"><a href="/ke/metrics/brokers"><i
 							class="fa fa-sitemap fa-fw"></i> Brokers</a></li>
-					<li id="navbar_cli"><a href="/ke/metrics/trend"><i
+					<li id="navbar_cli4"><a href="/ke/metrics/trend"><i
 							class="fa fa-bar-chart-o fa-fw"></i> Trend</a></li>
 				</ul></li>
 			<li><a href="#" data-toggle="collapse" data-target="#demo1"><i
@@ -125,11 +126,11 @@
 					class="fa fa-fw fa-user"></i> 用户分析 <i
 					class="fa fa-fw fa-caret-down"></i></a>
 				<ul id="demo5" class="collapse">
-					<li id="navbar_add"><a href="/ke/patient_analysis/status"><i
+					<li id="navbar_status"><a href="/ke/patient_analysis/status"><i
 							class="fa fa-fw fa-stethoscope"></i> 用户状态预判</a></li>
-					<li id="navbar_modify"><a href="/ke/patient_analysis/realtime"><i
+					<li id="navbar_realtime"><a href="/ke/patient_analysis/realtime"><i
 							class="fa fa-fw fa-bar-chart"></i> 用户实时数据</a></li>
-					<li id="navbar"><a href="/ke/patient_analysis/history"><i
+					<li id="navbar_history"><a href="/ke/patient_analysis/history"><i
 							class="fa fa-fw fa-bar-chart"></i>用户历史数据</a></li>
 				</ul>
 			</li>
@@ -138,13 +139,13 @@
 					class="fa fa-fw fa-eye"></i> monitor <i
 					class="fa fa-fw fa-caret-down"></i></a>
 				<ul id="demo6" class="collapse">
-					<li id="navbar_add"><a href="/ke/monitor/whole-country"><i
+					<li ><a href="/ke/monitor/whole-country"><i
 							class="fa fa-map-o fa-fw"></i> 全国</a></li>
-					<li id="navbar_modify"><a href="/ke/monitor/area"><i
+					<li ><a href="/ke/monitor/area"><i
 							class="fa fa-paper-plane fa-fw"></i> 某地区</a></li>
-					<li id="navbar"><a href="/ke/monitor/city"><i
+					<li ><a href="/ke/monitor/city"><i
 							class="fa fa-paper-plane-o fa-fw"></i>某市区</a></li>
-					<li id="navbar"><a href="/ke/monitor/location"><i
+					<li ><a href="/ke/monitor/location"><i
 							class="fa fa-map-marker fa-fw"></i>实时定位</a></li>
 				</ul>
 			</li>
@@ -152,11 +153,11 @@
 					class="fa fa-fw fa-search"></i> 综合分析 <i
 					class="fa fa-fw fa-caret-down"></i></a>
 				<ul id="demo7" class="collapse">
-					<li id="navbar_add"><a href="/ke/comprehensive/mood"><i
+					<li id="navbar_mood"><a href="/ke/comprehensive/mood"><i
 							class="fa  fa-smile-o fa-fw"></i>情绪分析</a></li>
-					<li id="navbar_modify"><a href="/ke/comprehensive/exercise"><i
+					<li id="navbar_sport"><a href="/ke/comprehensive/exercise"><i
 							class="fa fa-futbol-o fa-fw"></i> 运动习惯分析</a></li>
-					<li id="navbar_modify"><a href="/ke/comprehensive/filtrate"><i
+					<li id="navbar_filt"><a href="/ke/comprehensive/filtrate"><i
 							class="fa fa-street-view fa-fw"></i> 筛选分析</a></li>
 				</ul>
 			</li>
