@@ -1,0 +1,20 @@
+#status_info{
+    border:3px solid #ccc;
+    /* float:right; */
+    position:fixed;
+    border-radius:5px;
+    margin-top:30px;
+    margin-left:60%;
+    width:20%;
+    background:rgba(255,255,255,0.5);;
+    z-index:100;
+}
+.status_detail{
+    height:20%;
+    /* background-color:#e6fcde; */
+    background-color:#fff;
+    padding-left:10px;
+    font-size:20px;
+    color:#000;
+    /* background-color:rgba(0,0,0,0.3); */
+}

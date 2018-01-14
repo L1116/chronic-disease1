@@ -1,8 +1,8 @@
 <%--
   Created by IntelliJ IDEA.
   User: LH
-  Date: 2017/11/29
-  Time: 10:23
+  Date: 2018/1/13
+  Time: 10:31
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
@@ -22,6 +22,7 @@
     <title>chronic - disease</title>
     <jsp:include page="../public/css.jsp"></jsp:include>
     <jsp:include page="../public/tcss.jsp"></jsp:include>
+
 </head>
 <body>
 <jsp:include page="../public/navbar.jsp"></jsp:include>
@@ -30,37 +31,38 @@
         <div class="row">
             <div class="col-lg-12">
                 <h1 class="page-header">
-                    用户实时数据<small>overview</small>
+                    用户历史数据详情<small>overview</small>
                 </h1>
-                选择日期&nbsp;&nbsp;
-                <select style="width:160px;height:25px">
-                    <option value ="volvo">2017年11月30</option>
-                    <option value ="saab">2017年11月29</option>
-                    <option value="opel">2017年11月28</option>
-                    <option value="audi">2017年11月27</option>
-                    <option value="audi">2017年11月26</option>
-                    <option value="audi">2017年11月25</option>
-                    <option value="audi">2017年11月24</option>
-                    <option value="audi">2017年11月23</option>
-                    <option value="audi">2017年11月22</option>
-                    <option value="audi">2017年11月21</option>
-                    <option value="audi">2017年11月20</option>
-                </select>
+                <h3 class="current-time">
+
+                </h3>
             </div>
         </div>
         <!-- /.row -->
         <div class="row">
             <div class="col-lg-12">
                 <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <i class="fa fa-cogs fa-fw"></i> 关键指标
 
-                    </div>
+
                     <!-- /.panel-heading -->
                     <div class="panel-body">
 
-
-
+                        <div class="panel-heading">
+                            <i class="fa fa-cogs fa-fw"></i>关键指标
+                        </div>
+                        <table id="result" class="table table-bordered table-condensed"
+                               width="100%">
+                            <thead>
+                            <tr>
+                                <th>数据时间</th>
+                                <th>身高</th>
+                                <th>体重</th>
+                                <th>血常规</th>
+                                <th>总胆固醇</th>
+                                <th>甘油三酯</th>
+                            </tr>
+                            </thead>
+                        </table>
                     </div>
                 </div>
                 <!-- /.col-lg-4 -->

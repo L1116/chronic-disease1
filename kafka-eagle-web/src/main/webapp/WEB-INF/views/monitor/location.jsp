@@ -22,6 +22,7 @@
     <title>chronic - disease</title>
     <jsp:include page="../public/css.jsp"></jsp:include>
     <jsp:include page="../public/tcss.jsp"></jsp:include>
+    <link rel="stylesheet" type="text/css" href="/ke/media/css/chronicD/location.css">
 </head>
 <body>
 <jsp:include page="../public/navbar.jsp"></jsp:include>
@@ -46,7 +47,24 @@
                     </div>
                     <!-- /.panel-heading -->
                     <div class="panel-body" >
-                            <div id="main" style="height:600px"></div>
+                        <div id="status_info" >
+                            <div class="status_detail"  id="userid">
+                                ID：XXX
+                            </div>
+                            <div class="status_detail" id="steps">
+                                步数：XXX
+                            </div>
+                            <div class="status_detail" id="blood_pressure">
+                                血压：XXX
+                            </div>
+                            <div class="status_detail" id="heart_rate">
+                                心率:XXX
+                            </div>
+                            <div class="status_detail" id="mood_">
+                                情绪：XXX
+                            </div>
+                        </div>
+                            <div id="main" style="height:800px;"></div>
                         <%--<img style="margin:20px" width="280" height="140"
                              src="http://api.map.baidu.com/staticimage/v2?ak=etLBbgQqfQQE3Cb25G29FjDKZtQnzVCp&width=680&height=640&zoom=11"/>--%>
                             <script src="/ke/media/js/track/echarts/echarts.js"></script>
@@ -66,7 +84,7 @@
 </div>
 </body>
 <jsp:include page="../public/script.jsp">
-    <jsp:param value="main/patient/status_prognosis.js" name="loader" />
+    <jsp:param value="main/patient/currentTime.js" name="loader" />
 </jsp:include>
 <jsp:include page="../public/tscript.jsp"></jsp:include>
 </html>

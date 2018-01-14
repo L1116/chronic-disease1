@@ -22,6 +22,9 @@
     <title>chronic - disease</title>
     <jsp:include page="../public/css.jsp"></jsp:include>
     <jsp:include page="../public/tcss.jsp"></jsp:include>
+    <link rel="stylesheet" type="text/css" media="all" href="/ke/media/css/chronicD/timeline_styles.css">
+    <link rel="stylesheet" type="text/css" media="all" href="/ke/media/css/public/bootstrap-glyphicons.css">
+    <script type="text/javascript" src="/ke/media/js/public/jquery-1.11.0.min.js"></script>
 </head>
 <body>
 <jsp:include page="../public/navbar.jsp"></jsp:include>
@@ -44,8 +47,87 @@
                     <div class="panel-heading">
                         <i class="fa fa-cogs fa-fw"></i> 时间线
                     </div>
+
                     <!-- /.panel-heading -->
                     <div class="panel-body">
+                        <!-- timeline -->
+                        <div id="timelineshow">
+                            <ul class="timeline">
+                                <li><div class="tldate">TIMELINE</div></li>
+
+                                <li>
+                                    <div class="tl-circ"></div>
+                                    <div class="timeline-panel">
+                                        <div class="tl-heading">
+                                            <h4 class="encounterName">常规体检</h4>
+                                            <p><small class="text-muted encounterDate"><i class="glyphicon glyphicon-time"></i>  4/07/2017</small></p>
+                                        </div>
+                                        <div class="tl-body">
+                                            <p class="encounterDescription">年度体检</p>
+                                            <button class="btn" value="${encounter_id}"><a href="/ke/patient_analysis/history_detail" >查看详情</a></button>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="timeline-inverted">
+                                    <div class="tl-circ"></div>
+                                    <div class="timeline-panel">
+                                        <div class="tl-heading">
+                                            <h4 class="encounterName">门诊</h4>
+                                            <p><small class="text-muted encounterDate"><i class="glyphicon glyphicon-time"></i> 4/07/2016</small></p>
+                                        </div>
+                                        <div class="tl-body">
+                                            <p class="encounterDescription">感冒</p>
+                                            <a href="#" target="_blank">查看详情</a>
+                                        </div>
+                                    </div>
+                                </li>
+
+
+
+                                <li>
+                                    <div class="tl-circ"></div>
+                                    <div class="timeline-panel">
+                                        <div class="tl-heading">
+                                            <h4>门诊</h4>
+                                            <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 3/22/2014</small></p>
+                                        </div>
+                                        <div class="tl-body">
+                                            <p>急性胃肠炎</p>
+                                            <a href="#" target="_blank">查看详情</a>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="timeline-inverted">
+                                    <div class="tl-circ"></div>
+                                    <div class="timeline-panel">
+                                        <div class="tl-heading">
+                                            <h4>门诊</h4>
+                                            <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 02/23/2014</small></p>
+                                        </div>
+                                        <div class="tl-body">
+                                            <p>骨折</p>
+                                            <a href="#" target="_blank">查看详情</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="tl-circ"></div>
+                                    <div class="timeline-panel">
+                                        <div class="tl-heading">
+                                            <h4>全面体检</h4>
+                                            <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 02/11/2014</small></p>
+                                        </div>
+                                        <div class="tl-body">
+                                            <a href="#" target="_blank">查看详情</a>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+
+                        </div>
+                        <!-- timeline -->
                         <div class="panel-heading">
                             <i class="fa fa-cogs fa-fw"></i>关键指标
                         </div>
@@ -73,7 +155,7 @@
 </div>
 </body>
 <jsp:include page="../public/script.jsp">
-    <jsp:param value="main/patient/status_prognosis.js" name="loader" />
+    <jsp:param value="main/patient/currentTime.js" name="loader" />
 </jsp:include>
 <jsp:include page="../public/tscript.jsp"></jsp:include>
 </html>

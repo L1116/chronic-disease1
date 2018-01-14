@@ -14,4 +14,8 @@ public interface DataTestService {
     public String findDataById(int id);
 
      public boolean modify(DataTest dt);
+
+    public int DTCounts();
+
+
 }
