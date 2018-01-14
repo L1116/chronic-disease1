@@ -81,7 +81,7 @@
 <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=ogQzr2weGLe00PmSAZWf1eZ912ldWp1s"></script>
 <script type="text/javascript" src="/ke/media/js/monitor/whole_location.js"></script>
 <jsp:include page="../public/script.jsp">
-    <jsp:param value="main/patient/status_prognosis.js" name="loader" />
+    <jsp:param value="main/patient/currentTime.js" name="loader" />
 </jsp:include>
 <jsp:include page="../public/tscript.jsp"></jsp:include>
 

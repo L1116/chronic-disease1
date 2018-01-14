@@ -16,4 +16,6 @@ public interface DataTestDao {
     public boolean modify(DataTest dt);
 
     public int getTotalCount();
+
+    public int countTotaldts();
 }

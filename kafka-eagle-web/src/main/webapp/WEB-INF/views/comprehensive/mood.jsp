@@ -72,7 +72,7 @@
 </div>
 </body>
 <jsp:include page="../public/script.jsp">
-    <jsp:param value="main/patient/status_prognosis.js" name="loader" />
+    <jsp:param value="main/patient/currentTime.js" name="loader" />
 </jsp:include>
 <jsp:include page="../public/tscript.jsp"></jsp:include>
 </html>

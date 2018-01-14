@@ -12,10 +12,10 @@
         "echarts/chart/map",    
     ],
     function (echarts, BMapExtension) {
-        $('#main').css({
+        /*$('#main').css({
             height:$('body').height(),
             width:$('body').width()
-        });
+        });*/
 
         // 初始化地图
         var BMapExt = new BMapExtension($('#main')[0], BMap, echarts,{
@@ -32,8 +32,9 @@
         var point = new BMap.Point(startPoint.x, startPoint.y);
         map.centerAndZoom(point, 17);
         map.enableScrollWheelZoom(true);
+        map.setMapStyle({style:'normal'});
         // 地图自定义样式
-        map.setMapStyle({
+       /* map.setMapStyle({
            styleJson: [
           {
                     'featureType': 'land',     //调整土地颜色
@@ -192,7 +193,8 @@
                     }
           }
     ]
-        });
+        });*/
+
  //所有的属性参数都是存放于option对象中具体，最后通过setOption方法即可将自己定义的option实例化
 option = {
 

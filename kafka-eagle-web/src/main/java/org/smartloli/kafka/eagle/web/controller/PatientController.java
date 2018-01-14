@@ -3,6 +3,7 @@ package org.smartloli.kafka.eagle.web.controller;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 
 import javax.servlet.http.HttpSession;
@@ -36,6 +37,16 @@ public class PatientController {
         mav.setViewName("/patient_analysis/history_info");
         return mav;
     }
+    /** Patient history_detail Viewer */
+    @RequestMapping(value = "/patient_analysis/history_detail",method = RequestMethod.GET)
+    public ModelAndView historydetail(HttpSession session){
+        ModelAndView mav = new ModelAndView();
+        mav.setViewName("/patient_analysis/history_detail");
+        return mav;
+    }
+    @RequestMapping(value="/patient_analysis/history_detail",method = RequestMethod.POST)
+        public String getEncounterDetail(HttpSession session, @RequestParam("id") int id){
 
-
+        return null;
+        }
 }

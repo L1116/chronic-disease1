@@ -35,7 +35,7 @@
         update datatest set
         dNumb=#{dNumb},name=#{name},description=#{description},value=#{value} where id=#{id}
     </update>
-    <select id="getTotalCount" resultType="int">
+    <select id="countTotaldts" resultType="int">
         select count(*) from datatest
     </select>
 </mapper>
